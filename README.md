@@ -4,6 +4,18 @@ This is a little project that allow you to play music, you need to load the torr
 
 Once you add the torrents you can listen all the music via streaming, free and with no ads.
 
+## How to run
+You need to install:
+* NodeJS
+* NPM
+* Bower
+
+After that, you need to clone this repository and run the following commands:
+```bash
+npm i && bower i #To install dependencies
+npm start #To start the program
+```
+
 
 ## Future of this project
 
@@ -28,7 +40,7 @@ Thanks so much also to other members that help me, I can't name them all. His na
 Follow these steps:
  - Fork this repository
  - Clone it with ``git clone git@github.com:<your_user_id>/torrent_player.git``
- - Run  ``npm i`` 
+ - Run  ``npm i``
  - Run  ``bower install``
  - Install electron: npm install electron-prebuilt -g
  - Finally start it: ``electron .``.
